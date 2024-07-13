@@ -36,17 +36,23 @@ if (isset($_GET['id'])) {
       margin: auto;
       padding-top: 20px;
     }
+    .event-image {
+      max-height: 400px;
+      object-fit: cover;
+    }
   </style>
 </head>
 
 <body>
   <!-- Main Content -->
   <div class="container">
-      <img src="uploads/<?php echo $row['gambar']; ?>" class="img-fluid" width="50%" height="50%" alt="<?php echo $row['judul']; ?>" />
+    <div class="card mb-4 shadow-lg">
+      <img src="uploads/<?php echo $row['gambar']; ?>" class="card-img-top event-image" alt="<?php echo $row['judul']; ?>" />
+      <div class="card-body">
         <h3 class="card-title"><?php echo $row['judul']; ?></h3>
         <p class="card-text"><?php echo $row['deskripsi']; ?></p>
         <p class="card-text"><small class="text-muted">Event Berakhir: <?php echo $row['tanggal_berakhir']; ?></small></p>
-        <a href="data-event.html" class="btn btn-primary">Kembali ke Data Event</a>
+        <a href="event.php" class="btn btn-dark">Kembali</a>
       </div>
     </div>
   </div>

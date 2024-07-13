@@ -33,7 +33,7 @@ $result = $conn->query($sql);
             <a class="nav-link" href="#">Event</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="berita.html">Berita</a>
+            <a class="nav-link" href="berita.php">Berita</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Eksplore </a>
