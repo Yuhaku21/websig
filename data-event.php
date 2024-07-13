@@ -40,17 +40,7 @@
   </head>
   <body>
     <!--Sidebar-->
-    <div class="sidebar">
-      <h3 class="text-center">Admin Dashboard</h3>
-      <a href="dashboard.html">Dashboard</a>
-      <a href="data-objek-wisata.html">Data Objek Wisata</a>
-      <a href="data-lokasi-penginapan.html">Data Lokasi Penginapan</a>
-      <a href="data-touring-travel.html">Data Touring Travel</a>
-      <a href="data-lokasi-restoran.html">Data Lokasi Restoran</a>
-      <a href="data-event.html">Data Event</a>
-      <a href="data-berita.html">Data Berita</a>
-      <a href="#logout">Logout</a>
-    </div>
+    <?php include "./layouts/sidebar.html" ?>
     <!--Sidebar-->
 
     <!--MainContent-->

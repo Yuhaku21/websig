@@ -1,3 +1,7 @@
+<?php 
+include "./backend/login-admin.php"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,7 +18,7 @@
         <div class="card shadow-lg" style="width: 500px">
           <div class="card-body">
             <h4 class="text-center"><b>Login</b></h4>
-            <form>
+            <form method="post">
               <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
                 <input type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp" />
@@ -28,7 +32,7 @@
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
               </div>
               <div class="d-grid gap-2">
-                <button class="btn btn-dark" type="button">Login</button>
+                <button class="btn btn-dark" type="submit" name="loginBtn">Login</button>
               </div>
             </form>
           </div>

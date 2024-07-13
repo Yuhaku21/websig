@@ -4,7 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Admin Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <style>
       body {
         display: flex;
@@ -40,17 +45,7 @@
   </head>
   <body>
     <!--Sidebar-->
-    <div class="sidebar">
-      <h3 class="text-center">Admin Dashboard</h3>
-      <a href="dashboard.html">Dashboard</a>
-      <a href="data-objek-wisata.html">Data Objek Wisata</a>
-      <a href="data-lokasi-penginapan.html">Data Lokasi Penginapan</a>
-      <a href="data-touring-travel.html">Data Touring Travel</a>
-      <a href="data-lokasi-restoran.html">Data Lokasi Restoran</a>
-      <a href="data-event.html">Data Event</a>
-      <a href="data-berita.html">Data Berita</a>
-      <a href="#logout">Logout</a>
-    </div>
+    <?php include "./layouts/sidebar.html" ; ?>
     <!--Sidebar-->
 
     <!--MainContent-->
@@ -58,6 +53,10 @@
       <h2><b>Halaman Data Berita</b></h2>
     </div>
     <!--MainContent-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
